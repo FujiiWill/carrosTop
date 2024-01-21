@@ -1,7 +1,5 @@
-function App() {
-  return (
-    <h1>Bom dia</h1>
-  )
-}
+import Catalog from "./routes/Catalog";
 
-export default App
+export default function App() {
+  return <Catalog />;
+}
